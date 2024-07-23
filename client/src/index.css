@@ -1,0 +1,300 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  background-color: #F2F2F2;
+  color: black;
+  min-height: 100vh;
+  width: 100%;
+}
+html{
+  font-size: 62.5%;
+}
+.container-register{
+  display: grid;
+  grid-template-columns: repeat(2,auto);
+  /* border:2px solid red;  */
+  /* height: 100vh;  */
+  background-color: #F2F2F2;
+  color:black;
+}
+.registration-image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ /* border: 2px solid black;   */
+  /* margin: 3rem;  */
+  /* padding: 3rem;  */
+}
+.image-girl{
+  /* border: 2px solid green;  */
+}
+.registration-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.registration-form h1{
+  position: absolute;
+  bottom: 64%;
+  font-size: 2.5rem;
+
+}
+.registration-form input{
+  margin-left: 3rem;
+  margin-top: 1rem;
+  border-radius: 0.2rem;
+  border: 1px solid #828079;
+}
+.registration-form .email-input{
+  margin-left: 4.6rem;
+}
+.registration-form .phone-input{
+  margin-left: 4.5rem;
+}
+.registration-form .pass-input{
+  margin-left: 3.2rem;
+}
+.register-button{
+    padding: 0.6rem 2rem;
+    margin-top: 2rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    border: transparent;
+    background-color:rgb(149, 63, 253) ;
+    transition: transform 0.3s ease-in-out;
+}
+.register-button:hover{
+  transform:scale(1.1);
+}
+.login-container{
+  display: grid;
+  grid-template-columns: repeat(2,auto);
+  /* border:2px solid red;  */
+  height: 100vh;
+
+}
+.login-image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid black;  */
+}
+.login-form h1{
+  position: absolute;
+  bottom: 60%;
+  font-size: 2.5rem;
+}
+.login-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color:black;
+}
+.login-form input{
+  margin-left: 3rem;
+  margin-top: 2rem;
+  border-radius: 0.2rem;
+  border: 1px solid #828079;
+}
+.login-form form{
+  position: relative;
+    bottom: 6%;
+}
+.login-form .login-email{
+  margin-left: 4.5rem;
+}
+.login-button{
+  padding: 0.6rem 2rem;
+  margin-top: 3rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  border: transparent;
+  background-color:rgb(149, 63, 253) ;
+  transition: transform  0.3s ease-in-out;
+}
+.login-button:hover{
+  transform: scale(1.1);
+}
+.container-home{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* border:1px solid black;  */
+  background-color: #FFFFFF;
+}
+.card1-cont{
+  display: grid;
+  grid-template-columns: repeat(2,auto);
+   /* border:1px solid red;    */
+  column-gap: 0.5rem;
+  width: 100%;
+  height: 124vh;
+  background-color: #FFFFFF;
+}
+.card1-cont .card1-writeup{
+   /* border:2px solid green;    */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
+  /* margin: 3rem;  */
+  padding: 3rem;
+}
+.card1-cont .card1-writeup h1{
+  font-size: 3rem;
+
+}
+.card1-cont .card1-writeup p{
+  padding: 1rem;
+  margin-top: 1rem;
+}
+.card1-button{
+  display: grid;
+  grid-template-columns: repeat(2,auto);
+  column-gap: 1rem;
+  margin-top: 1rem;
+}
+.card1-button .but1{
+  background-color:rgb(149, 63, 253) ;
+}
+.card1-button button{
+  padding: 0.5rem 1rem;
+  border-radius: 0.4rem;
+  border:1px solid rgb(149, 63, 253);
+  background-color: #FFFFFF;
+}
+.card1-cont .card1-image{
+  /* border:2px solid rgb(149, 63, 253);    */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 3rem;  */
+}
+.card2-cont{
+  /* border:2px solid black;  */
+  display: grid;
+  grid-template-columns: repeat(4,auto);
+  width: 80%;
+  padding: 3rem;
+  border-radius: 0.8rem;
+  margin-top: 5rem;
+  background-color: #F2F2F2;
+}
+.card2-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.card2-box h2{
+  font-size: 2rem;
+
+}
+.footer{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background-color:rgb(149, 63, 253) ;
+  color:white;
+  
+}
+.Acard2-cont{
+  /* border:2px solid black;  */
+  display: grid;
+  grid-template-columns: repeat(4,auto);
+  padding: 3rem;
+  border-radius: 0.8rem;
+  background-color: #F2F2F2;
+}
+.Acard2-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.Acard2-box h2{
+  font-size: 2rem;
+
+}
+.Ccard-writeup form{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
+}
+.Ccard-writeup form label{
+  margin-top: 1rem;
+}
+.Ccard-writeup form input{
+  margin-top: 1rem;
+  padding: 0rem 3.3rem;
+}
+
+.Ccard-writeup form textarea{
+  margin-top: 1rem;
+}
+.error-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid black;  */
+  height: 100vh;
+}
+.error-container p{
+  margin-top: 2rem;
+}
+.header{
+  font-size: 10rem;
+}
+.btns{
+  margin-top: 3rem;
+}
+.btns-b{
+  padding: 0rem 1rem;
+
+}
+.service-container{
+  /* border: 2px solid black;  */
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3,auto);
+  column-gap: 1rem;
+  row-gap: 3rem;
+  background-color: #F2F2F2;
+}
+.service-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #FFFFFF;
+}
+.service-card img{
+  width: 227px;
+    height: 154px;
+}
+.service-price{
+  width: 100%;
+  display: flex;
+  /* border: 2px solid green;  */
+  justify-content: space-between;
+  align-items: center;
+}
+.service-card p{
+  padding: 1rem 0rem;
+  text-align: center;
+}
